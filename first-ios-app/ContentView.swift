@@ -24,14 +24,15 @@ struct ContentView: View {
             .font(.title)
             .cornerRadius(10)
             
+            
+            Spacer()
+            
+            Text("Spyderbyte Inc ©")
+                .padding(.bottom, 25)
+                .font(.footnote)
+            
         }
         .padding(.top, 150)
-        
-        Spacer()
-        
-        Text("Spyderbyte Inc ©")
-            .padding(.bottom, 25)
-            .font(.footnote)
         
     }
 }
