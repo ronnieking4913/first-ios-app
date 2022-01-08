@@ -9,8 +9,30 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
+        
+        VStack{
+        
+            Text("**WELCOME**")
+                .font(.title)
+            
+            Button("**Log In**") {
+                //Continue through app
+            }
             .padding()
+            .foregroundColor(Color("lime"))
+            .background(Color.black)
+            .font(.title)
+            .cornerRadius(10)
+            
+        }
+        .padding(.top, 150)
+        
+        Spacer()
+        
+        Text("Spyderbyte Inc ©")
+            .padding(.bottom, 25)
+            .font(.footnote)
+        
     }
 }
 
